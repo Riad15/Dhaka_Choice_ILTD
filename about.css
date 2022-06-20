@@ -1,0 +1,51 @@
+/*Inter Font family style link  */
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Inter:wght@200&family=Italianno&family=Lilita+One&family=Poppins:wght@500&display=swap');
+
+/* about Section style start*/
+.about-section {
+    margin-top: 32px;
+
+}
+
+.about_us {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 91px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: (4px, 0px 4px, rgba(0, 0, 0, 0.25));
+}
+
+.about-left-headLine {
+    Font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    Font-size: 30px;
+    Line-height: 36px;
+    Line-height: 100%;
+    text-transform: uppercase;
+    Align: Left Vertical;
+    align: Top
+}
+
+.about-left {
+
+    border: #636363 solid .1px;
+    box-shadow: 0 0 10px 5px;
+    border-top-width: 10;
+}
+
+.about-left-paregraph {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.a {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}

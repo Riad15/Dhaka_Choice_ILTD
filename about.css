@@ -7,29 +7,39 @@
 
 }
 
-.about_us {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 75px;
-    line-height: 91px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    box-shadow: (4px, 0px 4px, rgba(0, 0, 0, 0.25));
-}
-
 .about-left-headLine {
     Font-family: 'Inter';
+    color: white;
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 25px;
     Font-size: 30px;
+    text-align: center;
     Line-height: 36px;
     Line-height: 100%;
     text-transform: uppercase;
-    Align: Left Vertical;
-    align: Top
+}
+
+.about_us {
+    color: #C17575;
+    font-size: 100px;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    width: 1000px;
+    margin: auto;
+}
+
+.about_us:before {
+    content: 'About Us';
+    position: absolute;
+    display: block;
+    top: 2px;
+    left: 250px;
+    color: black;
+    background: -webkit-linear-gradient(-90deg, rgba(26, 53, 53, 0.93), #D4BCBC, #884444, #D4BCBC, #884444, #D4BCBC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .about-left {
@@ -40,10 +50,16 @@
 }
 
 .about-left-paregraph {
+    color: #ECE87F;
     padding: 5px;
     font-size: 15px;
     font-weight: 400;
     text-align: justify;
+}
+
+.about_img {
+    width: 500px;
+    height: 590px;
 }
 
 .a {

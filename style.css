@@ -8,7 +8,14 @@
     color: white
 }
 
-.status-bar-right li {
+.follow_us {
+    margin-right: 18px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.status-bar-right a.link {
     list-style-type: none;
     margin-right: 18px;
     font-size: 20px;
@@ -40,10 +47,14 @@
     color: white;
 }
 
+.logo_body {
+    border-right: solid 1px black;
+}
+
 .nav-logo img {
     width: 170px;
     height: 100px;
-    border-right: solid 1px black;
+
 }
 
 .txt_color {

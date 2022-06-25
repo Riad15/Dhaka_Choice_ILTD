@@ -30,7 +30,6 @@
     width: 35px;
     height: 50px;
     transition: transform 0.9s;
-
 }
 
 .nav-logo:hover {
@@ -124,4 +123,20 @@ h1 {
     margin-top: 1em;
     margin-bottom: 2em;
     text-shadow: 0px 2px 0px #000000;
+}
+
+
+
+@media only screen and (max-width:420px) {
+    .nav-logo img {
+        width: 100px;
+        background-color: aqua;
+        height: 115px;
+        transition: transform 0.9s;
+
+    }
+
+    .nav-logo:hover {
+        transform: scale(1.2);
+    }
 }

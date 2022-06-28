@@ -38,8 +38,13 @@
 
 /* -----------------custom togglers css style-------------- */
 .custom-toggler.navbar-toggler {
-    border-color: yellow;
+    border-color: rgba(255, 165, 0, 1);
     border-radius: 5px;
+
+}
+
+.custom-toggler.navbar-toggler:focus {
+    box-shadow: none !important;
 }
 
 .custom-toggler .navbar-toggler-icon {

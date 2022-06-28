@@ -57,6 +57,10 @@
     font-size: 15px;
     font-weight: 400;
     text-align: justify;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
 }
 
 .first_slide_img {
